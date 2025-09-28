@@ -1,10 +1,10 @@
 package workflow
 
 import (
-	"github.com/cschleiden/go-workflows/core"
-	"github.com/cschleiden/go-workflows/internal/log"
-	"github.com/cschleiden/go-workflows/internal/signals"
-	"github.com/cschleiden/go-workflows/internal/workflowstate"
+	"github.com/mohan2020coder/go-workflows/core"
+	"github.com/mohan2020coder/go-workflows/internal/log"
+	"github.com/mohan2020coder/go-workflows/internal/signals"
+	"github.com/mohan2020coder/go-workflows/internal/workflowstate"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 )

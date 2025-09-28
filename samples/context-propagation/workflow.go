@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cschleiden/go-workflows/activity"
-	"github.com/cschleiden/go-workflows/workflow"
+	"github.com/mohan2020coder/go-workflows/activity"
+	"github.com/mohan2020coder/go-workflows/workflow"
 )
 
 func Workflow1(ctx workflow.Context) (string, error) {

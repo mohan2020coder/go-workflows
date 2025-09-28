@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cschleiden/go-workflows/core"
+	"github.com/mohan2020coder/go-workflows/core"
 	redis "github.com/redis/go-redis/v9"
 )
 

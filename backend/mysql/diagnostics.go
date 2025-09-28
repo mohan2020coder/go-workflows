@@ -5,8 +5,8 @@ import (
 	"database/sql"
 	"time"
 
-	"github.com/cschleiden/go-workflows/core"
-	"github.com/cschleiden/go-workflows/diag"
+	"github.com/mohan2020coder/go-workflows/core"
+	"github.com/mohan2020coder/go-workflows/diag"
 )
 
 var _ diag.Backend = (*mysqlBackend)(nil)

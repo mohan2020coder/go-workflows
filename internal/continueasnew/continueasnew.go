@@ -1,8 +1,8 @@
 package continueasnew
 
 import (
-	"github.com/cschleiden/go-workflows/backend/metadata"
-	"github.com/cschleiden/go-workflows/backend/payload"
+	"github.com/mohan2020coder/go-workflows/backend/metadata"
+	"github.com/mohan2020coder/go-workflows/backend/payload"
 )
 
 type Error struct {

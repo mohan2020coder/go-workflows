@@ -3,8 +3,8 @@ package worker
 import (
 	"time"
 
-	"github.com/cschleiden/go-workflows/workflow"
-	"github.com/cschleiden/go-workflows/workflow/executor"
+	"github.com/mohan2020coder/go-workflows/workflow"
+	"github.com/mohan2020coder/go-workflows/workflow/executor"
 )
 
 type WorkflowWorkerOptions struct {

@@ -1,4 +1,4 @@
-module github.com/cschleiden/go-workflows/analyzer
+module github.com/mohan2020coder/go-workflows/analyzer
 
 go 1.24.5
 

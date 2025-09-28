@@ -3,11 +3,11 @@ package workflow
 import (
 	"context"
 
-	"github.com/cschleiden/go-workflows/internal/command"
-	"github.com/cschleiden/go-workflows/internal/contextvalue"
-	"github.com/cschleiden/go-workflows/internal/sync"
-	"github.com/cschleiden/go-workflows/internal/tracing"
-	"github.com/cschleiden/go-workflows/internal/workflowstate"
+	"github.com/mohan2020coder/go-workflows/internal/command"
+	"github.com/mohan2020coder/go-workflows/internal/contextvalue"
+	"github.com/mohan2020coder/go-workflows/internal/sync"
+	"github.com/mohan2020coder/go-workflows/internal/tracing"
+	"github.com/mohan2020coder/go-workflows/internal/workflowstate"
 	"go.opentelemetry.io/otel/trace"
 )
 

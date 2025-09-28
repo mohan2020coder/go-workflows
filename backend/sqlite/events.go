@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cschleiden/go-workflows/backend/history"
-	"github.com/cschleiden/go-workflows/backend/test"
-	"github.com/cschleiden/go-workflows/core"
+	"github.com/mohan2020coder/go-workflows/backend/history"
+	"github.com/mohan2020coder/go-workflows/backend/test"
+	"github.com/mohan2020coder/go-workflows/core"
 )
 
 var _ test.TestBackend = (*sqliteBackend)(nil)

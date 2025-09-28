@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/cschleiden/go-workflows/activity"
+	"github.com/mohan2020coder/go-workflows/activity"
 	"github.com/stretchr/testify/require"
 )
 

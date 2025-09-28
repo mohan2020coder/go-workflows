@@ -4,10 +4,10 @@ import (
 	"context"
 	"log"
 
-	"github.com/cschleiden/go-workflows/client"
-	"github.com/cschleiden/go-workflows/samples"
-	simple_split_worker "github.com/cschleiden/go-workflows/samples/simple-split-worker"
 	"github.com/google/uuid"
+	"github.com/mohan2020coder/go-workflows/client"
+	"github.com/mohan2020coder/go-workflows/samples"
+	simple_split_worker "github.com/mohan2020coder/go-workflows/samples/simple-split-worker"
 )
 
 func main() {

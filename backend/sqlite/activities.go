@@ -5,8 +5,8 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/cschleiden/go-workflows/backend/history"
-	"github.com/cschleiden/go-workflows/workflow"
+	"github.com/mohan2020coder/go-workflows/backend/history"
+	"github.com/mohan2020coder/go-workflows/workflow"
 )
 
 func scheduleActivity(ctx context.Context, tx *sql.Tx, queue workflow.Queue, instance *workflow.Instance, event *history.Event) error {

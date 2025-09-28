@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/benbjohnson/clock"
-	"github.com/cschleiden/go-workflows/backend/history"
-	"github.com/cschleiden/go-workflows/core"
+	"github.com/mohan2020coder/go-workflows/backend/history"
+	"github.com/mohan2020coder/go-workflows/core"
 )
 
 type Command interface {

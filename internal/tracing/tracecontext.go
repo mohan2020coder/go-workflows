@@ -3,7 +3,7 @@ package tracing
 import (
 	"context"
 
-	"github.com/cschleiden/go-workflows/internal/sync"
+	"github.com/mohan2020coder/go-workflows/internal/sync"
 	"go.opentelemetry.io/otel/propagation"
 	"go.opentelemetry.io/otel/trace"
 )

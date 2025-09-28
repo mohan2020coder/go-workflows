@@ -5,12 +5,12 @@ import (
 	"log"
 	"time"
 
-	"github.com/cschleiden/go-workflows/backend"
-	"github.com/cschleiden/go-workflows/client"
-	"github.com/cschleiden/go-workflows/core"
-	"github.com/cschleiden/go-workflows/samples"
-	"github.com/cschleiden/go-workflows/workflow"
-	"github.com/cschleiden/go-workflows/workflow/executor"
+	"github.com/mohan2020coder/go-workflows/backend"
+	"github.com/mohan2020coder/go-workflows/client"
+	"github.com/mohan2020coder/go-workflows/core"
+	"github.com/mohan2020coder/go-workflows/samples"
+	"github.com/mohan2020coder/go-workflows/workflow"
+	"github.com/mohan2020coder/go-workflows/workflow/executor"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/sdk/resource"
@@ -21,7 +21,7 @@ import (
 	"go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp"
 	"go.opentelemetry.io/otel/exporters/stdout/stdouttrace"
 
-	"github.com/cschleiden/go-workflows/worker"
+	"github.com/mohan2020coder/go-workflows/worker"
 
 	"github.com/google/uuid"
 )

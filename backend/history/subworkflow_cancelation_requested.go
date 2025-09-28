@@ -1,7 +1,7 @@
 package history
 
 import (
-	"github.com/cschleiden/go-workflows/core"
+	"github.com/mohan2020coder/go-workflows/core"
 )
 
 type SubWorkflowCancellationRequestedAttributes struct {

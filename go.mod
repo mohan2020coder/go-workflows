@@ -1,4 +1,4 @@
-module github.com/cschleiden/go-workflows
+module github.com/mohan2020coder/go-workflows
 
 go 1.24.5
 

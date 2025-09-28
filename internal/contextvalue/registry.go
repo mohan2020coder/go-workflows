@@ -1,8 +1,8 @@
 package contextvalue
 
 import (
-	"github.com/cschleiden/go-workflows/internal/sync"
-	"github.com/cschleiden/go-workflows/registry"
+	"github.com/mohan2020coder/go-workflows/internal/sync"
+	"github.com/mohan2020coder/go-workflows/registry"
 )
 
 type registryKey struct{}

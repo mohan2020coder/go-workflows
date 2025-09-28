@@ -1,6 +1,6 @@
 package workflow
 
-import "github.com/cschleiden/go-workflows/internal/workflowerrors"
+import "github.com/mohan2020coder/go-workflows/internal/workflowerrors"
 
 type (
 	Error      = workflowerrors.Error

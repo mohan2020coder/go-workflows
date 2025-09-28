@@ -40,22 +40,22 @@ test-integration:
 # Run Redis backend tests
 test-redis:
 	@echo "Running Redis backend tests..."
-	$(GOTEST) $(TEST_FLAGS) -timeout $(TEST_TIMEOUT) github.com/cschleiden/go-workflows/backend/redis
+	$(GOTEST) $(TEST_FLAGS) -timeout $(TEST_TIMEOUT) github.com/mohan2020coder/go-workflows/backend/redis
 
 # Run MySQL backend tests
 test-mysql:
 	@echo "Running MySQL backend tests..."
-	$(GOTEST) $(TEST_FLAGS) -timeout $(TEST_TIMEOUT) github.com/cschleiden/go-workflows/backend/mysql
+	$(GOTEST) $(TEST_FLAGS) -timeout $(TEST_TIMEOUT) github.com/mohan2020coder/go-workflows/backend/mysql
 
 # Run SQLite backend tests
 test-sqlite:
 	@echo "Running SQLite backend tests..."
-	$(GOTEST) $(TEST_FLAGS) -timeout $(TEST_TIMEOUT) github.com/cschleiden/go-workflows/backend/sqlite
+	$(GOTEST) $(TEST_FLAGS) -timeout $(TEST_TIMEOUT) github.com/mohan2020coder/go-workflows/backend/sqlite
 
 # Run monoprocess backend tests
 test-monoprocess:
 	@echo "Running monoprocess backend tests..."
-	$(GOTEST) $(TEST_FLAGS) -timeout $(TEST_TIMEOUT) github.com/cschleiden/go-workflows/backend/monoprocess
+	$(GOTEST) $(TEST_FLAGS) -timeout $(TEST_TIMEOUT) github.com/mohan2020coder/go-workflows/backend/monoprocess
 
 # Run all backend tests
 test-backends: test-redis test-mysql test-sqlite test-monoprocess

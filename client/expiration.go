@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cschleiden/go-workflows/backend"
-	"github.com/cschleiden/go-workflows/internal/workflows"
+	"github.com/mohan2020coder/go-workflows/backend"
+	"github.com/mohan2020coder/go-workflows/internal/workflows"
 )
 
 const expirationWorkflowInstanceID = "expiration"

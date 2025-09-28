@@ -3,7 +3,7 @@ package workflow
 import (
 	"log/slog"
 
-	"github.com/cschleiden/go-workflows/internal/workflowstate"
+	"github.com/mohan2020coder/go-workflows/internal/workflowstate"
 )
 
 // Logger returns the logger for the current workflow.
